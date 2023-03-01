@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bershka</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-</head>
-<body>
-    
-    <section id="header">
-        <a href="#">
-            <img src="pics/logo.png" class="logo">
-        </a>
-        <div>
-            <ul id="navbar">
-                <a href="#" id="close">
-                    <i class="fa-sharp fa-solid fa-xmark"></i>
-                </a>
-                <li><a class="active" href="index.html">Home</a> </li>               
-                <li><a href="shop.html">Shop</a> </li>
-                <li><a href="blog.html">Blog</a> </li>
-                <li><a href="about.html">About</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
-                <li id="lg-bag">
-                    <a href="cart.html">
-                        <i class="fa-solid fa-bag-shopping"></i>             
-                    </a> 
-                </li>  
-                
-            </ul>
-        </div>
-        <div id="mobile">
-            <a href="cart.html">
-                <i class="fa-solid fa-bag-shopping"></i>             
-            </a> 
-            <i id="bar" class="fas fa-outdent"></i>
-            
-        </div>
-    </section>
-    
+<?php
+    include_once "layout/header.php";
+?>  
     <section id="hero">
         <h4 id="text">Trade-in-offer</h4>
         <h2 id="text">Super value deals</h2>
@@ -392,7 +349,6 @@
         <p>© 2023 Bershka</p>
     </div>
 
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/af04d87d48.js" crossorigin="anonymous"></script>
-</body>
-</html>
+<?php
+    include_once "layout/footer.php";
+?> 
