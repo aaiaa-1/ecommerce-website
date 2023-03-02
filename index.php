@@ -1,5 +1,5 @@
 <?php
-    include_once "layout/header.php";
+    include_once "header.php";
 ?>  
     <section id="hero">
         <h4 id="text">Trade-in-offer</h4>
@@ -350,5 +350,5 @@
     </div>
 
 <?php
-    include_once "layout/footer.php";
+    include_once "footer.php";
 ?> 

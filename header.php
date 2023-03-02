@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +23,9 @@
         </a>
         <div>
             <ul id="navbar">
-                <a href="#" id="close">
-                    <i class="fa-sharp fa-solid fa-xmark"></i>
-                </a>
-                <li><a class="active" href="index.html">Home</a> </li>               
+                <li><a href="index.php">Home</a> </li>               
                 <li><a href="signup.php">Sign Up</a> </li>
-                <li><a href="login.php">Sign In</a> </li>
-                <li><a href="contact.html">Contact</a> </li>
-             
+                <li><a href="login.php">Sign In</a> </li>             
                 
             </ul>
         </div>
